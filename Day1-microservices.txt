@@ -1,0 +1,34 @@
+Day 1 - Restful WebServices	
+	• Introduction to Microservice architecture
+	• Developing REST-based services
+	• Testing all types of Reqeusts with Postman
+
+Day 2 - Microservices and Spring   Cloud	
+	• Rest Template
+	• Writing a Rest Client
+	• Content Negotiation
+	• Communication between Micro Service Endpoints
+	• Eureka Server
+	• Publishing a Microservice in Eureka Server
+	• Calling One Service from Another Service
+
+Day 3- Feign Client and Spring Cloud Config 	
+	• Feign Client
+	• Externalizing Configuration
+	• Configuration through Git Repository
+	• Different Profiles
+
+Day 4- Zuul Api Gateway and Circuit Breaker	
+	• Zuul API Gateway
+	• Creating a Logger Filter
+	• Introduction to Circuit Breaker
+	• Hystrix
+	• Implementing Micro service with Hystrix
+Day - 5 - Security
+	• Authentication and Authorization
+	• JWT 
+	• OAuth2 Introduction
+
+Prerequisites- Java and Spring, Any database knowledge is prefered
+
+
