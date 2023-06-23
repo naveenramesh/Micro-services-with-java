@@ -1,0 +1,170 @@
+Spring and MicroServices
+-------------------------
+
+Program: Program is a set of instructions which performs a specific tastk.
+Component: A reusable program is called a component.
+Service: A resuable component which is exposed over the network is called service.
+
+Micro Service
+
+Macro Service : When microservices are assembled together we will get
+macro service.
+
+Application Types:
+1. Monolithic --- Is written by maintaing JEE standards
+2. MicroService --- when we use Java EE we can achevie 40% reusability.
+Then shifted towards microservices.
+
+springboot is purely designed for microservices which supports 80% resuability.
+
+FAST API is another technology given by python can also be used to create MS
+HELIDON also used to create MS
+SpringBoot using Kotlin also used to create MS
+NodeJS and ExpessJS also uses to create MS
+NextJS also used to create MS
+also LoopBack.Js also used to create MS
+
+Top Most 4 MS frameworks are:
+1. Springboot with java
+2. Helidon
+3. FAST API
+4. NodeJS and ExpressJS
+
+
+12 factor application design in microservices
+ref: https://12factor.net/
+
+cloud native : Activity platform which provides an environment
+as like that of cloud.
+
+
+ref: https://github.com/vishymails
+
+
+MS are tightly coupled to with DevOps and 12 factors approach
+
+PODMan is substitute for Docker
+
+container is collection of components
+
+
+
+
+Web Services
+------------
+
+REST
+
+
+REpresentational State Transfer
+
+
+Communication
+
+1. Request Object---> request mode + url + data(request body)
+Header
+
+
+
+Request Modes
+
+1. GET-----> client is requesting for a data from server
+2. POST----> client is sending data to server
+3. DELETE----> client wants to delete data from server
+4. PUT-------> client wants to update some data in server
+
+
+2. Response Object ----> response code + data
+
+
+
+
+
+
+
+2. Response Objects
+
+Springboot is a spring based framework for developing REST based applications
+
+for creating a microservices arch we will create springboot based rest applications
+
+
+but not all applications created using springboot are ms based
+
+springboot = spring - xml + annotations
+
+
+data communication methods in springboot rest
+----------------------------------------------
+
+
+1. path ---> @PathVariable
+
+2. request body  --- @RequestBody
+
+3. request parameters--- @RequestParam
+
+
+
+
+
+The principles used to design Microservices are as follows:
+
+1. Independent & Autonomous Services
+2. Scalability
+3. Decentralization
+4. Resilient Services
+5. Real-Time Load Balancing
+6. Availability
+7. Continuous delivery through DevOps Integration
+8. Seamless API Integration and Continuous Monitoring
+9. Isolation from Failures
+10. Auto -Provisioning
+
+
+Design Patterns of Microservices
+
+1. Aggregator
+Aggregator is a basic web page which invokes various services to get the required information or achieve the required functionality. 
+
+
+2. API Gateway
+
+3. Chained or Chain of Responsibility
+
+Chained or Chain of Responsibility Design Patterns produces a single output which is a combination of multiple chained outputs. So, if you have three services lined up in a chain, then, the request from the client is first received by Service A. Then, this service communicates with the next Service B and collects data. Finally, the second service communicates with the third service to generate the consolidated output.
+
+
+
+4. Asynchronous Messaging
+In this type of microservices design pattern, all the services can communicate with each other, but they do not have to communicate with each other sequentially
+
+
+5. Database or Shared Data
+
+Either the system can have a database per each service or it can have shared database per service.  You can use database per service and shared database per service to solve various problems.  The problems could be as follows:
+
+    Duplication of data and inconsistency
+    Different services have different kinds of storage requirements
+    Few business transactions can query the data, with multiple services
+    De-normalization of data
+
+
+6. Event Sourcing
+7. Branch
+8. Command Query Responsibility Segregator
+9. Circuit Breaker
+10. Decomposition
+
+
+
+
+
+
+
+
+
+
+
+
+
